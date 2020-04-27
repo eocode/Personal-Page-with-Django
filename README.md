@@ -2,6 +2,13 @@
 
 Practice Django with a page with personal info and contact
 
+# Features
+* Home Page
+* About me
+* Portfolio
+* Contact me
+* Admin Panel
+
 # Preview
 
 # How to run
