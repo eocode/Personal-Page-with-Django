@@ -10,6 +10,10 @@ Practice Django with a page with personal info and contact
 * Admin Panel
 
 # Preview
+<div align="center">
+  <img src="img/1.png">
+  <small><p>Personal Page (Home)</p></small>
+</div>
 
 # How to run
 
