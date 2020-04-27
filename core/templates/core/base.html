@@ -6,18 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{% block title %}{% endblock %}</title>
     {% load static %}
+    <link rel="icon" href="{% static 'core/img/icon.png' %}" sizes="16x16" type="image/png">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="{% static 'core/css/cover.css' %}" rel="stylesheet">
-
 </head>
 <body>
 <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
     <header class="masthead mb-auto">
         <div class="inner">
-            <h3 class="masthead-brand" href="{% url 'home' %}">EOCode</h3>
+            <a class="h4 nav-link masthead-brand text-center" href="{% url 'home' %}">EOCode</a>
             <nav class="nav nav-masthead justify-content-center">
-                <a class="nav-link" href="{% url 'home' %}">Portada</a>
                 <a class="nav-link" href="{% url 'about' %}">Acerca de</a>
                 <a class="nav-link" href="{% url 'portfolio' %}">Portafolio</a>
                 <a class="nav-link" href="{% url 'contact' %}">Contacto</a>
@@ -30,6 +29,7 @@
     </main>
 
     <footer class="mastfoot mt-auto">
+        <hr/>
         <div class="inner text-center">
             <strong>EoCode <a href="https://eliasojedamedina.com/">Software</a></strong>
         </div>
