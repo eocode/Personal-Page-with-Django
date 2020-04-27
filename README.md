@@ -15,6 +15,11 @@ Practice Django with a page with personal info and contact
   <small><p>Personal Page (Home)</p></small>
 </div>
 
+<div align="center">
+  <img src="img/2.png">
+  <small><p>Portafolio de proyectos</p></small>
+</div>
+
 # How to run
 
 ```shell

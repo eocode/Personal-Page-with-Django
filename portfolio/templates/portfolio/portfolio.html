@@ -1,0 +1,41 @@
+{% extends 'core/base2.html' %}
+
+{% load static %}
+
+{% block title %}Portafolio{% endblock %}
+
+{% block content %}
+
+    <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark">
+        <div class="col-md-6 px-0">
+            <h1 class="display-4 font-italic">Portafolio de proyectos</h1>
+            <p class="lead my-3">
+                Proyectos orientados al tratamiento de datos y manejo de información
+            </p>
+        </div>
+    </div>
+
+    <div class="row mb-2">
+        {% for project in projects %}
+            <div class="col-md-6">
+                <div class="card mb-3">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="{{ project.image.url }}" class="card-img" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ project.title }}</h5>
+                                <p class="card-text">{{ project.description }}</p>
+                                <p class="card-text"><small class="text-muted">{{ project.created }}</small></p>
+                                {% if project.link %}
+                                    <p><a class="btn btn-app" href="{{ project.link }}">Más información</a></p>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}
