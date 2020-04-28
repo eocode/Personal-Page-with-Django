@@ -25,7 +25,7 @@ Practice Django with a page with personal info and contact
 
 <div align="center">
   <img src="img/admin.png">
-  <small><p>Portafolio de proyectos</p></small>
+  <small><p>Personalized Admin</p></small>
 </div>
 
 <div align="center">
