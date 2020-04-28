@@ -19,9 +19,12 @@
         <div class="inner">
             <a class="h4 nav-link masthead-brand text-center" href="{% url 'home' %}"><> EOCode</a>
             <nav class="nav nav-masthead justify-content-center">
-                <a class="nav-link" href="{% url 'about' %}">{% trans "Acerca de" %}</a>
-                <a class="nav-link" href="{% url 'portfolio' %}">{% trans "Proyectos" %}</a>
-                <a class="nav-link" href="{% url 'contact' %}">{% trans "Contacto" %}</a>
+                <a class="nav-link {% if request.path == '/es/about/' %}active{% endif %}"
+                   href="{% url 'about' %}">{% trans "Acerca de" %}</a>
+                <a class="nav-link {% if request.path == '/' %}active{% endif %}"
+                   href="{% url 'portfolio' %}">{% trans "Proyectos" %}</a>
+                <a class="nav-link {% if request.path == '/es/contact/' %}active{% endif %}"
+                   href="{% url 'contact' %}">{% trans "Contacto" %}</a>
             </nav>
         </div>
     </header>
@@ -31,7 +34,6 @@
     </main>
 
     <footer class="mastfoot mt-auto">
-        {% load i18n %}
         <div class="sm-12 text-center">
             {% get_current_language as LANGUAGE_CODE %}
             {% get_available_languages as LANGUAGES %}

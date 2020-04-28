@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-27 21:57-0500\n"
+"POT-Creation-Date: 2020-04-28 09:56-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,12 +18,58 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: .\PersonalPage\settings.py:124
+#: .\PersonalPage\settings.py:126
 msgid "Español"
 msgstr ""
 
-#: .\PersonalPage\settings.py:125
+#: .\PersonalPage\settings.py:127
 msgid "English"
+msgstr ""
+
+#: .\blog\admin.py:24 .\blog\models.py:43
+msgid "Categorías"
+msgstr ""
+
+#: .\blog\models.py:11
+msgid "Nombre"
+msgstr ""
+
+#: .\blog\models.py:14 .\blog\models.py:39 .\portfolio\models.py:13
+msgid "Imagen"
+msgstr ""
+
+#: .\blog\models.py:16 .\blog\models.py:45 .\portfolio\models.py:17
+msgid "Fecha de creación"
+msgstr ""
+
+#: .\blog\models.py:18 .\blog\models.py:47 .\portfolio\models.py:19
+msgid "Fecha de edición"
+msgstr ""
+
+#: .\blog\models.py:32 .\portfolio\models.py:9
+msgid "Título"
+msgstr ""
+
+#: .\blog\models.py:34
+#, fuzzy
+#| msgid "Bienvenido"
+msgid "Contenido"
+msgstr "Hello"
+
+#: .\blog\models.py:37
+msgid "Fecha de publicación"
+msgstr ""
+
+#: .\blog\models.py:41
+msgid "Autor"
+msgstr ""
+
+#: .\blog\models.py:50
+msgid "entrada"
+msgstr ""
+
+#: .\blog\models.py:51
+msgid "entradas"
 msgstr ""
 
 #: .\core\templates\core\base.html:22
@@ -1243,28 +1289,12 @@ msgstr ""
 msgid "Connect, get help, or contribute"
 msgstr ""
 
-#: .\portfolio\models.py:9
-msgid "Título"
-msgstr ""
-
 #: .\portfolio\models.py:11
 msgid "Descripción"
 msgstr ""
 
-#: .\portfolio\models.py:13
-msgid "Imagen"
-msgstr ""
-
 #: .\portfolio\models.py:15
 msgid "Dirección Web"
-msgstr ""
-
-#: .\portfolio\models.py:17
-msgid "Fecha de creación"
-msgstr ""
-
-#: .\portfolio\models.py:19
-msgid "Fecha de edición"
 msgstr ""
 
 #: .\portfolio\models.py:22

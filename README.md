@@ -6,9 +6,10 @@ Practice Django with a page with personal info and contact
 * ✔ Landing Page
 * ✔ About me
 * ✔ Portfolio
-* ❎ Blog
+* ✔ Blog
 * ✔ Contact me
-* ✔ Admin Panel
+* ✔ Admin Panel Customized
+* ✔ Roles and Permissions
 * ✔ Support Internationalization I18N (Es/En)
 * ❎ SSR with React
 * ❎ RESTFULL API
@@ -20,6 +21,11 @@ Practice Django with a page with personal info and contact
 <div align="center">
   <img src="img/Home.png">
   <small><p>Personal Page with Internationalization (Home)</p></small>
+</div>
+
+<div align="center">
+  <img src="img/admin.png">
+  <small><p>Portafolio de proyectos</p></small>
 </div>
 
 <div align="center">

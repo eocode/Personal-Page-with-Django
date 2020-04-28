@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'parler',
     'core',
     'portfolio.apps.PortfolioConfig',
+    'about.apps.AboutConfig',
+    'blog.apps.BlogConfig'
 ]
 
 MIDDLEWARE = [

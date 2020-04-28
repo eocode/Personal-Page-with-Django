@@ -1,0 +1,54 @@
+{% extends "admin/base.html" %}
+
+{% load i18n %}
+{% block title %}{{ title }} | {{ site_title|default:_('Django site admin') }}{% endblock %}
+{% block extrastyle %}
+    <link rel="icon" href="https://image.flaticon.com/icons/svg/2702/2702647.svg" sizes="16x16" type="image/png">
+    <style>
+        #header {
+            background-color: #000000;
+            color: #ffefef;
+        }
+
+        .module h2, .module caption, .inline-group h2 {
+            background-color: black;
+        }
+
+        .button, input[type=submit], input[type=button], .submit-row input, a.button {
+            background: #2e6237;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        div.breadcrumbs {
+            background: #d4d7b6;
+            padding: 10px 40px;
+            border: none;
+            font-size: 14px;
+            color: white;
+            text-align: left;
+        }
+
+        div.breadcrumbs a {
+            color: #305462;
+        }
+
+        #branding h1, #branding h1 a:link, #branding h1 a:visited {
+            color: #ffffff;
+        }
+
+        #content-related {
+            background: #fffbee;
+        }
+    </style>
+
+{% endblock %}
+
+{% block branding %}
+    <h1 id="site-name"><a href="{% url 'admin:index' %}">{{ site_header|default:_('Django administration') }}</a></h1>
+{% endblock %}
+
+{% block nav-global %}{% endblock %}
