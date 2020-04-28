@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-28 09:56-0500\n"
+"POT-Creation-Date: 2020-04-28 11:28-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -72,15 +72,15 @@ msgstr ""
 msgid "entradas"
 msgstr ""
 
-#: .\core\templates\core\base.html:22
+#: .\core\templates\core\base.html:23
 msgid "Acerca de"
 msgstr "Sobre mi"
 
-#: .\core\templates\core\base.html:23
+#: .\core\templates\core\base.html:25
 msgid "Proyectos"
 msgstr "Portafolio"
 
-#: .\core\templates\core\base.html:24
+#: .\core\templates\core\base.html:27
 msgid "Contacto"
 msgstr "Contacto"
 
@@ -1305,6 +1305,34 @@ msgstr ""
 #: .\portfolio\models.py:23
 msgid "proyectos"
 msgstr ""
+
+#: .\templates\admin\base_site.html:4
+msgid "Django site admin"
+msgstr ""
+
+#: .\templates\admin\base_site.html:55
+msgid "Django administration"
+msgstr ""
+
+#: .\templates\admin\base_site.html:60
+msgid "View site"
+msgstr "Website"
+
+#: .\templates\admin\base_site.html:65
+msgid "Documentation"
+msgstr ""
+
+#: .\templates\admin\base_site.html:70
+msgid "Cambiar lenguaje"
+msgstr ""
+
+#: .\templates\admin\base_site.html:84
+msgid "Change password"
+msgstr "Mi cuenta"
+
+#: .\templates\admin\base_site.html:86
+msgid "Log out"
+msgstr "Salir"
 
 #, fuzzy
 #~| msgid "Portafolio de proyectos"
