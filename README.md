@@ -13,6 +13,7 @@ Practice Django with a page with personal info and contact
 * ❎ SSR with React
 * ❎ RESTFULL API
 * ❎ GraphQL API
+* ❎ Google Cloud Deploy
 
 # Preview
 

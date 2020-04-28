@@ -11,9 +11,8 @@
             <h3 class="font-weight-bold pt-4 mb-4  text-center">{% trans "Bienvenido" %}</h3>
 
             <h6 class="font-italic mb-5 text-justify">
-                <b>¿Deseas transformar los datos de tu negocio en conocimiento de alto valor?</b>
-                ¿Necesitas tomar decisiones rápidas con el respaldo de los datos de tu negocio, conocimiento de tus
-                clientes e información disponible en Internet?
+                <b>{% trans "¿Deseas transformar los datos de tu negocio en conocimiento de alto valor?" %}</b>
+                {% trans "¿Necesitas tomar decisiones rápidas con el respaldo de los datos de tu negocio, conocimiento de tus clientes e información disponible en Internet?" %}
             </h6>
 
             <div class="row mx-lg-5 mx-md-3 text-center">
@@ -26,19 +25,25 @@
                 </div>
             </div>
 
-            <p class="text-center"><b>Mi nombre es Elias</b>, dejame mostrarte lo que los datos pueden hacer por tí</p>
-            <div class="row">
-                <div class="col-sm-5 m-2">
+            <hr>
+
+            <p class="text-center">
+                <b>{% trans "Mi nombre es Elias, " %}</b>{% trans "dejame mostrarte lo que los datos pueden hacer por tí" %}
+            </p>
+            <div class="row mx-auto">
+                <div class="col-sm-6 mb-2">
                     <a class="btn btn-app btn-block" href="{% url 'about' %}">
-                        Conoce más sobre mí
+                        {% trans "Conoce más sobre mí" %}
                     </a>
                 </div>
-                <div class="col-sm-5 m-2">
+                <div class="col-sm-6">
                     <a class="btn btn-app btn-block" href="{% url 'portfolio' %}">
-                        Portafolio de proyectos
+                        {% trans "Portafolio de proyectos" %}
                     </a>
                 </div>
             </div>
+
+            <hr>
 
         </section>
         <!--Section: Content-->

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-27 20:50-0500\n"
+"POT-Creation-Date: 2020-04-27 21:41-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,17 +18,46 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: .\PersonalPage\settings.py:123
+#: .\PersonalPage\settings.py:124
 msgid "Español"
 msgstr ""
 
-#: .\PersonalPage\settings.py:124
+#: .\PersonalPage\settings.py:125
 msgid "English"
 msgstr ""
 
 #: .\core\templates\core\home.html:11
 msgid "Bienvenido"
 msgstr "Hello"
+
+#: .\core\templates\core\home.html:14
+msgid ""
+"¿Deseas transformar los datos de tu negocio en conocimiento de alto valor?"
+msgstr "Do you want to transform your business data into high-value knowledge?"
+
+#: .\core\templates\core\home.html:15
+msgid ""
+"¿Necesitas tomar decisiones rápidas con el respaldo de los datos de tu "
+"negocio, conocimiento de tus clientes e información disponible en Internet?"
+msgstr ""
+"Do you need to make quick decisions with the support of your business data, "
+"knowledge of yourcustomers and information available on the Internet?"
+
+#: .\core\templates\core\home.html:30
+msgid "Mi nombre es Elias, "
+msgstr "My name is Elias, "
+
+#: .\core\templates\core\home.html:30
+msgid "dejame mostrarte lo que los datos pueden hacer por tí"
+msgstr "let me show you what the data can do for you"
+
+#: .\core\templates\core\home.html:34
+msgid "Conoce más sobre mí"
+msgstr "Know more about me"
+
+#: .\core\templates\core\home.html:39
+msgid "Portafolio de proyectos"
+msgstr "Project Portfolio"
 
 #: .\env\Lib\site-packages\django\contrib\messages\apps.py:7
 msgid "Messages"
