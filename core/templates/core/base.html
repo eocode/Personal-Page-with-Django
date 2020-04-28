@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+{% load i18n %}
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -18,9 +19,9 @@
         <div class="inner">
             <a class="h4 nav-link masthead-brand text-center" href="{% url 'home' %}"><> EOCode</a>
             <nav class="nav nav-masthead justify-content-center">
-                <a class="nav-link" href="{% url 'about' %}">Acerca de</a>
-                <a class="nav-link" href="{% url 'portfolio' %}">Portafolio</a>
-                <a class="nav-link" href="{% url 'contact' %}">Contacto</a>
+                <a class="nav-link" href="{% url 'about' %}">{% trans "Acerca de" %}</a>
+                <a class="nav-link" href="{% url 'portfolio' %}">{% trans "Proyectos" %}</a>
+                <a class="nav-link" href="{% url 'contact' %}">{% trans "Contacto" %}</a>
             </nav>
         </div>
     </header>

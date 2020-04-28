@@ -18,7 +18,7 @@ Practice Django with a page with personal info and contact
 # Preview
 
 <div align="center">
-  <img src="img/1.png">
+  <img src="img/Home.png">
   <small><p>Personal Page with Internationalization (Home)</p></small>
 </div>
 

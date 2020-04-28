@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-27 21:41-0500\n"
+"POT-Creation-Date: 2020-04-27 21:57-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,6 +25,18 @@ msgstr ""
 #: .\PersonalPage\settings.py:125
 msgid "English"
 msgstr ""
+
+#: .\core\templates\core\base.html:22
+msgid "Acerca de"
+msgstr "Sobre mi"
+
+#: .\core\templates\core\base.html:23
+msgid "Proyectos"
+msgstr "Portafolio"
+
+#: .\core\templates\core\base.html:24
+msgid "Contacto"
+msgstr "Contacto"
 
 #: .\core\templates\core\home.html:11
 msgid "Bienvenido"
@@ -44,19 +56,19 @@ msgstr ""
 "¿Necesitas tomar decisiones rápidas con el respaldo de los datos de tu "
 "negocio, conocimiento de tus clientes e información disponible en Internet?"
 
-#: .\core\templates\core\home.html:30
+#: .\core\templates\core\home.html:31
 msgid "Mi nombre es Elias, "
 msgstr "Mi nombre es Elias, "
 
-#: .\core\templates\core\home.html:30
+#: .\core\templates\core\home.html:31
 msgid "dejame mostrarte lo que los datos pueden hacer por tí"
 msgstr "dejame mostrarte lo que los datos pueden hacer por tí"
 
-#: .\core\templates\core\home.html:34
+#: .\core\templates\core\home.html:36
 msgid "Conoce más sobre mí"
 msgstr "Conoce más sobre mí"
 
-#: .\core\templates\core\home.html:39
+#: .\core\templates\core\home.html:41
 msgid "Portafolio de proyectos"
 msgstr "Portafolio de proyectos"
 
@@ -1263,3 +1275,8 @@ msgstr ""
 #: .\portfolio\models.py:23
 msgid "proyectos"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Portafolio de proyectos"
+#~ msgid "Portafolio"
+#~ msgstr "Portafolio"
