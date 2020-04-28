@@ -3,13 +3,19 @@
 Practice Django with a page with personal info and contact
 
 # Features
-* Home Page
-* About me
-* Portfolio
-* Contact me
-* Admin Panel
+* ✔ Landing Page
+* ✔ About me
+* ✔ Portfolio
+* ❎ Blog
+* ✔ Contact me
+* ✔ Admin Panel
+* ✔ Support Internationalization I18N (Es/En)
+* ❎ SSR with React
+* ❎ RESTFULL API
+* ❎ GraphQL API
 
 # Preview
+
 <div align="center">
   <img src="img/1.png">
   <small><p>Personal Page (Home)</p></small>

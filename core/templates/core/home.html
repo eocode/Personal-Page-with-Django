@@ -1,5 +1,5 @@
 {% extends 'core/base.html' %}
-
+{% load i18n %}
 {% block title %}Portada{% endblock %}
 
 {% block content %}
@@ -8,7 +8,7 @@
 
         <section class="dark-grey-text">
 
-            <h3 class="font-weight-bold pt-4 mb-4  text-center">Hola</h3>
+            <h3 class="font-weight-bold pt-4 mb-4  text-center">{% trans "Bienvenido" %}</h3>
 
             <h6 class="font-italic mb-5 text-justify">
                 <b>¿Deseas transformar los datos de tu negocio en conocimiento de alto valor?</b>
